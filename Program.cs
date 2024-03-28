@@ -1,10 +1,30 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using AspNetCoreTodo.Data;
+using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Hosting;
+using AspNetCoreTodo;
 
+public class Program
+{
+    public  static void Main(string[] args)
+    {
+        CreateHostBuilder(args).Build().Run();
+    }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+        .ConfigureWebHostDefaults(webBuilder =>
+        {
+            webBuilder.UseStartup<Startup>();
+        });
+}
+
+
+/*
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+//Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(connectionString));
@@ -13,6 +33,8 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+//builder.Services.AddMvc();
+//builder.Services.AddSingleton<ITodoItemService, FakeTodoItemService>();
 
 var app = builder.Build();
 
@@ -42,3 +64,4 @@ app.MapControllerRoute(
 app.MapRazorPages();
 
 app.Run();
+*/

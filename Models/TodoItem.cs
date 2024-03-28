@@ -1,4 +1,6 @@
-﻿namespace AspNetCoreTodo.Models
+﻿using System;
+
+namespace AspNetCoreTodo.Models
 {
     public class TodoItem
     {
