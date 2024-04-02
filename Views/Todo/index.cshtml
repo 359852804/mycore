@@ -27,7 +27,10 @@
     {
         <tr>
             <td>
+                <form asp-action="MarkDone" method="post">
                 <input type="checkbox" class="done-checkbox">
+                <input type="hidden" name="id" value="@item.Id" />
+                </form>
             </td>
             <td>@item.Title</td>
             <td>@item.DueAt.Humanize()</td>
@@ -36,5 +39,5 @@
  </table>
 
  <div class="panel-footer add-item-form">
-
+     @await Html.PartialAsync("AddItemPartial", new TodoItem())
  </div>
