@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -58,10 +58,10 @@
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Humanizer.dll": {}
+          "lib/net6.0/Humanizer.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Humanizer.dll": {}
+          "lib/net6.0/Humanizer.dll": {}
         }
       },
       "Humanizer.Core.af/2.14.1": {
@@ -70,7 +70,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/af/Humanizer.resources.dll": {
+          "lib/net6.0/af/Humanizer.resources.dll": {
             "locale": "af"
           }
         }
@@ -81,7 +81,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/ar/Humanizer.resources.dll": {
+          "lib/net6.0/ar/Humanizer.resources.dll": {
             "locale": "ar"
           }
         }
@@ -92,7 +92,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/az/Humanizer.resources.dll": {
+          "lib/net6.0/az/Humanizer.resources.dll": {
             "locale": "az"
           }
         }
@@ -103,7 +103,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/bg/Humanizer.resources.dll": {
+          "lib/net6.0/bg/Humanizer.resources.dll": {
             "locale": "bg"
           }
         }
@@ -114,7 +114,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/bn-BD/Humanizer.resources.dll": {
+          "lib/net6.0/bn-BD/Humanizer.resources.dll": {
             "locale": "bn-BD"
           }
         }
@@ -125,7 +125,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/cs/Humanizer.resources.dll": {
+          "lib/net6.0/cs/Humanizer.resources.dll": {
             "locale": "cs"
           }
         }
@@ -136,7 +136,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/da/Humanizer.resources.dll": {
+          "lib/net6.0/da/Humanizer.resources.dll": {
             "locale": "da"
           }
         }
@@ -147,7 +147,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/de/Humanizer.resources.dll": {
+          "lib/net6.0/de/Humanizer.resources.dll": {
             "locale": "de"
           }
         }
@@ -158,7 +158,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/el/Humanizer.resources.dll": {
+          "lib/net6.0/el/Humanizer.resources.dll": {
             "locale": "el"
           }
         }
@@ -169,7 +169,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/es/Humanizer.resources.dll": {
+          "lib/net6.0/es/Humanizer.resources.dll": {
             "locale": "es"
           }
         }
@@ -180,7 +180,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/fa/Humanizer.resources.dll": {
+          "lib/net6.0/fa/Humanizer.resources.dll": {
             "locale": "fa"
           }
         }
@@ -191,7 +191,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/fi-FI/Humanizer.resources.dll": {
+          "lib/net6.0/fi-FI/Humanizer.resources.dll": {
             "locale": "fi-FI"
           }
         }
@@ -202,7 +202,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/fr/Humanizer.resources.dll": {
+          "lib/net6.0/fr/Humanizer.resources.dll": {
             "locale": "fr"
           }
         }
@@ -213,7 +213,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/fr-BE/Humanizer.resources.dll": {
+          "lib/net6.0/fr-BE/Humanizer.resources.dll": {
             "locale": "fr-BE"
           }
         }
@@ -224,7 +224,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/he/Humanizer.resources.dll": {
+          "lib/net6.0/he/Humanizer.resources.dll": {
             "locale": "he"
           }
         }
@@ -235,7 +235,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/hr/Humanizer.resources.dll": {
+          "lib/net6.0/hr/Humanizer.resources.dll": {
             "locale": "hr"
           }
         }
@@ -246,7 +246,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/hu/Humanizer.resources.dll": {
+          "lib/net6.0/hu/Humanizer.resources.dll": {
             "locale": "hu"
           }
         }
@@ -257,7 +257,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/hy/Humanizer.resources.dll": {
+          "lib/net6.0/hy/Humanizer.resources.dll": {
             "locale": "hy"
           }
         }
@@ -268,7 +268,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/id/Humanizer.resources.dll": {
+          "lib/net6.0/id/Humanizer.resources.dll": {
             "locale": "id"
           }
         }
@@ -279,7 +279,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/is/Humanizer.resources.dll": {
+          "lib/net6.0/is/Humanizer.resources.dll": {
             "locale": "is"
           }
         }
@@ -290,7 +290,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/it/Humanizer.resources.dll": {
+          "lib/net6.0/it/Humanizer.resources.dll": {
             "locale": "it"
           }
         }
@@ -301,7 +301,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/ja/Humanizer.resources.dll": {
+          "lib/net6.0/ja/Humanizer.resources.dll": {
             "locale": "ja"
           }
         }
@@ -323,7 +323,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/ku/Humanizer.resources.dll": {
+          "lib/net6.0/ku/Humanizer.resources.dll": {
             "locale": "ku"
           }
         }
@@ -334,7 +334,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/lv/Humanizer.resources.dll": {
+          "lib/net6.0/lv/Humanizer.resources.dll": {
             "locale": "lv"
           }
         }
@@ -367,7 +367,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/nb/Humanizer.resources.dll": {
+          "lib/net6.0/nb/Humanizer.resources.dll": {
             "locale": "nb"
           }
         }
@@ -378,7 +378,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/nb-NO/Humanizer.resources.dll": {
+          "lib/net6.0/nb-NO/Humanizer.resources.dll": {
             "locale": "nb-NO"
           }
         }
@@ -389,7 +389,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/nl/Humanizer.resources.dll": {
+          "lib/net6.0/nl/Humanizer.resources.dll": {
             "locale": "nl"
           }
         }
@@ -400,7 +400,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/pl/Humanizer.resources.dll": {
+          "lib/net6.0/pl/Humanizer.resources.dll": {
             "locale": "pl"
           }
         }
@@ -411,7 +411,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/pt/Humanizer.resources.dll": {
+          "lib/net6.0/pt/Humanizer.resources.dll": {
             "locale": "pt"
           }
         }
@@ -422,7 +422,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/ro/Humanizer.resources.dll": {
+          "lib/net6.0/ro/Humanizer.resources.dll": {
             "locale": "ro"
           }
         }
@@ -433,7 +433,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/ru/Humanizer.resources.dll": {
+          "lib/net6.0/ru/Humanizer.resources.dll": {
             "locale": "ru"
           }
         }
@@ -444,7 +444,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/sk/Humanizer.resources.dll": {
+          "lib/net6.0/sk/Humanizer.resources.dll": {
             "locale": "sk"
           }
         }
@@ -455,7 +455,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/sl/Humanizer.resources.dll": {
+          "lib/net6.0/sl/Humanizer.resources.dll": {
             "locale": "sl"
           }
         }
@@ -466,7 +466,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/sr/Humanizer.resources.dll": {
+          "lib/net6.0/sr/Humanizer.resources.dll": {
             "locale": "sr"
           }
         }
@@ -477,7 +477,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/sr-Latn/Humanizer.resources.dll": {
+          "lib/net6.0/sr-Latn/Humanizer.resources.dll": {
             "locale": "sr-Latn"
           }
         }
@@ -488,7 +488,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/sv/Humanizer.resources.dll": {
+          "lib/net6.0/sv/Humanizer.resources.dll": {
             "locale": "sv"
           }
         }
@@ -510,7 +510,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/tr/Humanizer.resources.dll": {
+          "lib/net6.0/tr/Humanizer.resources.dll": {
             "locale": "tr"
           }
         }
@@ -521,7 +521,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/uk/Humanizer.resources.dll": {
+          "lib/net6.0/uk/Humanizer.resources.dll": {
             "locale": "uk"
           }
         }
@@ -532,7 +532,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/uz-Cyrl-UZ/Humanizer.resources.dll": {
+          "lib/net6.0/uz-Cyrl-UZ/Humanizer.resources.dll": {
             "locale": "uz-Cyrl-UZ"
           }
         }
@@ -543,7 +543,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/uz-Latn-UZ/Humanizer.resources.dll": {
+          "lib/net6.0/uz-Latn-UZ/Humanizer.resources.dll": {
             "locale": "uz-Latn-UZ"
           }
         }
@@ -554,7 +554,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/vi/Humanizer.resources.dll": {
+          "lib/net6.0/vi/Humanizer.resources.dll": {
             "locale": "vi"
           }
         }
@@ -565,7 +565,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/zh-CN/Humanizer.resources.dll": {
+          "lib/net6.0/zh-CN/Humanizer.resources.dll": {
             "locale": "zh-CN"
           }
         }
@@ -576,7 +576,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/zh-Hans/Humanizer.resources.dll": {
+          "lib/net6.0/zh-Hans/Humanizer.resources.dll": {
             "locale": "zh-Hans"
           }
         }
@@ -587,7 +587,7 @@
           "Humanizer.Core": "[2.14.1]"
         },
         "resource": {
-          "lib/netstandard2.0/zh-Hant/Humanizer.resources.dll": {
+          "lib/net6.0/zh-Hant/Humanizer.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -2756,7 +2756,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "Humanizer >= 2.14.1",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.17",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.17",
@@ -2766,36 +2766,36 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
-    "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\cunfu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\mymvc\\mycore\\AspNetCoreTodo.csproj",
+      "projectUniqueName": "C:\\Users\\cunfu\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
       "projectName": "AspNetCoreTodo",
-      "projectPath": "E:\\mymvc\\mycore\\AspNetCoreTodo.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\mymvc\\mycore\\obj\\",
+      "projectPath": "C:\\Users\\cunfu\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+      "packagesPath": "C:\\Users\\cunfu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cunfu\\AspNetCoreTodo\\AspNetCoreTodo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cunfu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -2806,8 +2806,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Humanizer": {
             "target": "Package",
@@ -2852,7 +2852,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

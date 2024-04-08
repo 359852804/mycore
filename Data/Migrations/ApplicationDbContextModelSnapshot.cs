@@ -29,6 +29,10 @@ namespace AspNetCoreTodo.Data.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<bool>("isDone")
                         .HasColumnType("INTEGER");
 
